@@ -1,0 +1,5 @@
+ 4，ref 被用来给元素或子组件注册引用信息，引用信息将会注册在父组件的 $refs 对象上
+         使用功能步骤:
+           a:在要获取的元素上，用ref自定义一个名称（就像给id=“box”）一样，box名称可以自定义
+           <div ref="box"></div>
+           b:在vue实例中，使用 this.$refs.box 获取到元素 （this.$refs是vue提供的）
